@@ -20,6 +20,10 @@ const userSchema = new mongoose.Schema(
             type: mongoose.Types.ObjectId,
             ref: "Cart",
         },
+        billId: {
+            type: mongoose.Types.ObjectId,
+            ref: "Bill",
+        },
 
 
     },
